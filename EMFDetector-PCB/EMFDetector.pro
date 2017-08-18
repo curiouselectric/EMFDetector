@@ -1,6 +1,6 @@
-update=18/10/2016 17:50:51
+update=13/07/2017 16:54:53
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -60,6 +60,7 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=E:/Google Drive/KiCAD/KiCad My Libraries/matts_components
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
