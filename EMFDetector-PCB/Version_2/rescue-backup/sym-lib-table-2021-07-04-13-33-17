@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name EMFDetector_v2-cache)(type Legacy)(uri ${KIPRJMOD}/EMFDetector_v2-cache.lib)(options "")(descr ""))
+  (lib (name EMFDetector-cache)(type Legacy)(uri "G:/My Drive/Work - Kits/PRODUCTS/Production/EMFDetector/GITHUB/EMFDetector/EMFDetector-PCB/Version_1/EMFDetector-cache.lib")(options "")(descr ""))
+)
