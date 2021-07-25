@@ -100,7 +100,7 @@ F 12 "~" H 7050 1750 60  0001 C CNN "Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L1
+L Device:L L1
 U 1 1 574B4587
 P 5350 2850
 F 0 "L1" V 5300 2850 50  0000 C CNN
@@ -108,10 +108,10 @@ F 1 "22mH" V 5450 2850 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_Inductor" H 5350 2850 50  0001 C CNN
 F 3 "" H 5350 2850 50  0000 C CNN
 	1    5350 2850
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L2
+L Device:L L2
 U 1 1 574B46BA
 P 5350 4450
 F 0 "L2" V 5300 4450 50  0000 C CNN
@@ -119,7 +119,7 @@ F 1 "22mH" V 5450 4450 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_Inductor" H 5350 4450 50  0001 C CNN
 F 3 "" H 5350 4450 50  0000 C CNN
 	1    5350 4450
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -301,18 +301,16 @@ Wire Wire Line
 $Comp
 L matts_components:GND #PWR011
 U 1 1 574B62D1
-P 7950 2950
-F 0 "#PWR011" H 7950 2700 50  0001 C CNN
-F 1 "GND" H 7950 2800 50  0000 C CNN
-F 2 "" H 7950 2950 50  0000 C CNN
-F 3 "" H 7950 2950 50  0000 C CNN
-	1    7950 2950
+P 9250 3150
+F 0 "#PWR011" H 9250 2900 50  0001 C CNN
+F 1 "GND" H 9250 3000 50  0000 C CNN
+F 2 "" H 9250 3150 50  0000 C CNN
+F 3 "" H 9250 3150 50  0000 C CNN
+	1    9250 3150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7950 2950 7950 2850
-Wire Wire Line
-	7950 2850 9350 2850
+	9250 3150 9250 3050
 $Comp
 L power:VCC #PWR09
 U 1 1 574B645B
@@ -430,7 +428,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2750 3700 2750
 Wire Wire Line
-	7950 4150 9200 4150
+	7950 4150 9050 4150
 Wire Wire Line
 	9200 2650 9350 2650
 Wire Wire Line
@@ -452,7 +450,7 @@ U 1 1 57690B2E
 P 9550 4100
 F 0 "P4" H 9550 4200 50  0000 C CNN
 F 1 "LOGO1" V 9650 4100 50  0000 C CNN
-F 2 "CuriousElectric3:CuriousElectric_flat_12mm" H 9550 4100 50  0001 C CNN
+F 2 "CuriousElectric3:TCEC_Words_13mm" H 9550 4100 50  0001 C CNN
 F 3 "" H 9550 4100 50  0000 C CNN
 	1    9550 4100
 	1    0    0    -1  
@@ -468,10 +466,6 @@ F 3 "" H 9550 4400 50  0000 C CNN
 	1    9550 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9200 4150 9200 3050
-Wire Wire Line
-	9200 3050 9350 3050
 $Comp
 L Device:LED D1
 U 1 1 57ED523B
@@ -591,11 +585,17 @@ Wire Wire Line
 Wire Wire Line
 	4650 2000 4650 2200
 Wire Wire Line
-	5350 2500 5350 2600
+	5350 3600 5350 4300
 Wire Wire Line
-	5350 3100 5350 3600
+	5350 4600 5350 4800
 Wire Wire Line
-	5350 3600 5350 4200
+	5350 3000 5350 3600
 Wire Wire Line
-	5350 4700 5350 4800
+	5350 2500 5350 2700
+Wire Wire Line
+	9350 3050 9250 3050
+Wire Wire Line
+	9350 2850 9050 2850
+Wire Wire Line
+	9050 2850 9050 4150
 $EndSCHEMATC

@@ -100,7 +100,7 @@ F 12 "~" H 7050 1750 60  0001 C CNN "Cost"
 	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L1
+L Device:L L1
 U 1 1 574B4587
 P 5350 2850
 F 0 "L1" V 5300 2850 50  0000 C CNN
@@ -108,10 +108,10 @@ F 1 "22mH" V 5450 2850 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_Inductor" H 5350 2850 50  0001 C CNN
 F 3 "" H 5350 2850 50  0000 C CNN
 	1    5350 2850
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 $Comp
-L pspice:INDUCTOR L2
+L Device:L L2
 U 1 1 574B46BA
 P 5350 4450
 F 0 "L2" V 5300 4450 50  0000 C CNN
@@ -119,7 +119,7 @@ F 1 "22mH" V 5450 4450 50  0000 C CNN
 F 2 "REInnovationFootprint:TH_Inductor" H 5350 4450 50  0001 C CNN
 F 3 "" H 5350 4450 50  0000 C CNN
 	1    5350 4450
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R1
@@ -591,11 +591,11 @@ Wire Wire Line
 Wire Wire Line
 	4650 2000 4650 2200
 Wire Wire Line
-	5350 2500 5350 2600
+	5350 3600 5350 4300
 Wire Wire Line
-	5350 3100 5350 3600
+	5350 4600 5350 4800
 Wire Wire Line
-	5350 3600 5350 4200
+	5350 3000 5350 3600
 Wire Wire Line
-	5350 4700 5350 4800
+	5350 2500 5350 2700
 $EndSCHEMATC
