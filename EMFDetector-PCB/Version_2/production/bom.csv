@@ -1,0 +1,12 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C2",C_1V7_TH,2,100u,
+"C3, C4, C5, C6",C1_wide_lg_pad,4,2.2u,
+"L1, L2",TH_Inductor,2,22mH,
+P2,Batt_Connector_Strain_Relief,1,BATT,
+P4,TCEC_Words_13mm,1,LOGO1,
+P5,CuriousElectric_globe_10mm,1,LOGO2,
+"R1, R2",TH_Resistor_1,2,100k,
+"R3, R4, R7",TH_Resistor_1,3,1k,
+"R5, R6",TH_Resistor_1,2,390k,
+SW1,SW_SPDT_R_Angle_ALIEX,1,PWR,
+U1,DIP-8_300_ELL,1,OPA2134,
